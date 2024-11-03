@@ -1,0 +1,99 @@
+:root {
+    /* Color Variables */
+    --color-900: #1F314F; /* Dark Blue */
+    --color-500: #68778D; /* Medium Blue */
+    --color-300: #D5E1EF; /* Light Blue */
+    --color-100: #FFFFFF; /* White */
+
+    /* Font Sizes and Line Heights */
+    --fs-large: 1.375rem;
+    --fw-large:700;
+    --lh-large: 120%;
+    --ls-large: 0px;
+
+    --fs-small: 0.9375rem;
+    --fw-small:400;
+    --lh-small: 140%;
+    --ls-small: 0.0125rem;
+
+    /* Spacing Variables */
+    --space-500: 2.5rem;
+    --space-300: 1.5rem;
+    --space-200: 1rem;
+}
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    font-size: 16px;
+}
+/* Reset basic body styling */
+body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-300);
+    margin: 0;
+}
+
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: var(--color-100);
+    border-radius: 1.25rem;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+    text-align: center;
+    padding: var(--space-200);
+}
+
+/* QR Code Image Styling */
+.card__image {
+    height: 288px;
+    margin-bottom: var(--space-300);
+    background-image: url('./images/image-qr-code.png');
+    background-size: cover;
+    border-radius: 0.625rem;
+}
+
+/* Text Block Styling */
+.card__text{
+    padding: 0 var(--space-200);
+}
+.card__text h3 {
+    font-size: var(--fs-large);
+    font-weight: var(--fw-large);
+    line-height: var(--lh-large);
+    color: var(--color-900);
+    margin-bottom: var(--space-200);
+}
+
+.card__text p {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-small);
+    line-height: var(--lh-small);
+    color: var(--color-500);
+}
+
+.attribution{
+    position: absolute;
+    color: var(--color-900);
+    bottom: 24px;
+    left: 24px;
+}
+.attribution a{
+    font-size: var(--fs-small);
+    font-weight: var(--fw-small);
+    color: #785fd3;
+    text-decoration: none;
+}

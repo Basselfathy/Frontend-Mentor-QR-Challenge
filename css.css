@@ -69,6 +69,7 @@ body {
 /* Text Block Styling */
 .card__text{
     padding: 0 var(--space-200);
+    margin-bottom: var(--space-300);
 }
 .card__text h3 {
     font-size: var(--fs-large);

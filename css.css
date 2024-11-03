@@ -71,7 +71,7 @@ body {
     padding: 0 var(--space-200);
     margin-bottom: var(--space-300);
 }
-.card__text h3 {
+.card__text h1 {
     font-size: var(--fs-large);
     font-weight: var(--fw-large);
     line-height: var(--lh-large);

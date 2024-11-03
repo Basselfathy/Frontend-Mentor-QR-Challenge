@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![1730666786783](image/README-template/1730666786783.png)
+![Screenshot 2024-11-03 223506](https://github.com/user-attachments/assets/a398b88c-4127-42d0-bead-3bf9aa18c579)
 
 ### Links
 
@@ -76,4 +76,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Github - [Basselfathy](https://github.com/Basselfathy)
-- Frontend Mentor - [@Basselfathy](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Basselfathy](https://www.frontendmentor.io/profile/Basselfathy)

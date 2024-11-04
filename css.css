@@ -77,7 +77,7 @@ img {
 .card__text{
     padding: var(--space-300) var(--space-200);
 }
-.card__text h3 {
+.card__text h2 {
     font-size: var(--fs-large);
     font-weight: var(--fw-large);
     line-height: var(--lh-large);

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <!-- Import 'Outfit' font family -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css.css">
@@ -17,21 +17,20 @@
 
 <body>
   <!-- Main container for the QR code card -->
-  <main class="card">
-    
-    <!-- Top block: QR Code Image -->
-    <div class="card__image">
-      
-    </div>
-    
-    <!-- Bottom block: Text content -->
-    <div class="card__text">
-      
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    
-    </div>
+  <main>
+    <div class="card">
 
+      <!-- Top block: QR Code Image -->
+      <img src="./images/image-qr-code.png" alt="QR Code image">
+      
+      <!-- Bottom block: Text content -->
+      <div class="card__text">
+        
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      
+      </div>
+    </div>
   </main>
 
   <footer class="attribution">
